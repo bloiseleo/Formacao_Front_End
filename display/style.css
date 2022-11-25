@@ -11,6 +11,6 @@ body {
     padding: 0;
 }
 
-box {
-    display: block;
+.box {
+    display: inline;
 }
