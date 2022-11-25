@@ -13,4 +13,7 @@ body {
 
 .box {
     display: inline;
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px; /* Does not work while display is set to inline */
 }
