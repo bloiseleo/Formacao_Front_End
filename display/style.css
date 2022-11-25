@@ -12,8 +12,8 @@ body {
 }
 
 .box {
-    display: inline;
+    display: inline-block;
     margin: 1rem;
     padding: 1rem;
-    width: 200px; /* Does not work while display is set to inline */
+    width: 200px; /* Does not work while display is set to inline, but if it is inline-block or block it does*/
 }
