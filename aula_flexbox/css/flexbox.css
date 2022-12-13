@@ -8,6 +8,25 @@
     display: flex;
 }
 
+.conteudoPrincipal-cursos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link:nth-child(4n + 1) {
+    margin-left: 0;
+}
+
 .rodapePrincipal-navMap-list {
     display: flex;
     flex-direction: column;
