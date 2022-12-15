@@ -23,10 +23,12 @@
 
 .cabecalho {
     grid-area: cabecalho;
+    padding: 0 2rem;
 }
  
 .conteudo {
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {

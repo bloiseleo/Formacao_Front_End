@@ -2,7 +2,6 @@
     align-items: center;
     grid-area: cabecalho;
     display: flex;
-    padding: 0 2rem;
 }
 
 .menu__link {
