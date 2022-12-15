@@ -1,0 +1,15 @@
+.cabecalho {
+    align-items: center;
+    grid-area: cabecalho;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.menu__link {
+    color: inherit;
+    padding: .5rem 1rem;
+}
+
+.menu__link.ativo, .menu__link:hover {
+    border-bottom: 5px solid var(--azul);
+}
