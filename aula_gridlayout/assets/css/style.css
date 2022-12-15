@@ -19,15 +19,12 @@
 
 .cabecalho {
     grid-area: cabecalho;
-    background: var(--green);
 }
  
 .conteudo {
     grid-area: conteudo;
-    background: var(--red);
 }
 
 .rodape {
     grid-area: rodape;
-    background: var(--azul);
 }
