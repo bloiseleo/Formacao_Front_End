@@ -19,7 +19,7 @@
 
 .destaques__titulo {
     background: rgba(0, 0, 0, .5);
-    color: #fdfdfd;
+    color:var(--branco);
     padding: .6rem;
     text-align: center;
     width: 100%;
@@ -65,9 +65,9 @@
 
 .destaques__categorias___item {
     align-items: center;
-    background-color: #fdfdfd;
+    background-color:var(--branco);
     border-left: 5px solid transparent;
-    color: #333333;
+    color: var(--preto);
     display: flex;
     padding: 1rem;
     width: 50%;
