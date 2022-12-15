@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador de Texto</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Extrator de Palavra Chave</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h2 class="main__title">Digite o seu texto</h2>
+            <form action="" class="main__form">
+                <textarea name="text" id="text" cols="30" rows="10" class="main__form__text"></textarea>
+                <label for="keywrods_wanted">Palavras-Chave Sugeridas: </label>
+                <input class="main__form__input" type="text" name="keywords_wanted" id="keywords_wanted">
+                <input type="submit" value="Extrair">
+            </form>
+        </div>
+    </main>
+    <script src="./assets/js/extractKeywords.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
