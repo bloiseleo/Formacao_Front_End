@@ -1,3 +1,5 @@
+"use strict";
+
 const teclas = document.querySelectorAll(".tecla")
 
 teclas.forEach(tecla => {
