@@ -9,9 +9,8 @@ const clientes = [
 const listaClientes = document.querySelector("#clientes");
 
 fetch(apiUrl)
-.then(res => {
-    console.log(res)
-})
+.then(res => res.json())
+.then(res => console.log(res))
 .catch(err => {
     console.error(err)
 })
