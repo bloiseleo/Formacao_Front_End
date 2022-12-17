@@ -24,17 +24,17 @@
                 <fieldset>
                     <legend class="formulario__legenda">Informações básicas</legend>
                     <div class="input-container">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required data-tipo="nome">
                         <label class="input-label" for="nome">Nome</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
                         <label class="input-label" for="email">Email</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="senha" id="senha" class="input" type="password" placeholder="Senha" required 
+                        <input name="senha" id="senha" class="input" type="password" placeholder="Senha" required data-tipo="senha"
                         title="A senha deve conter entre 6 e 12 caracteres deve conter 1 letra minúscula e 1 letra maiúscula e não conter símbolos.">
                         <label class="input-label" for="senha">Senha</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
@@ -48,7 +48,7 @@
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="cpf" id="cpf" class="input" type="text" placeholder="CPF">
+                        <input name="cpf" id="cpf" class="input" type="text" placeholder="CPF" data-tipo="cpf" required>
                         <label class="input-label" for="cpf">CPF</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
